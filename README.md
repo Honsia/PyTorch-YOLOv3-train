@@ -60,7 +60,7 @@ $ train.py [-h] [--epochs EPOCHS] [--batch_size BATCH_SIZE]
 #### Example (COCO)
 To train on COCO using a Darknet-53 backend pretrained on ImageNet run: 
 ```
-$ python3 train.py --data_config config/coco.data  --pretrained_weights weights/darknet53.conv.74
+$ python train.py --data_config data/face-mask.data  --pretrained_weights weights/darknet53.conv.74
 ```
 
 #### Training log
