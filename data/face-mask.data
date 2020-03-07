@@ -1,0 +1,4 @@
+classes=2
+train=data/face-mask-/train.txt
+valid=data/face-mask-/val.txt
+names=data/face-mask.names
